@@ -1,1 +1,2 @@
-# dunhuang-landing-page
+This landing page highlights some of the amazing treasures excavated from Dunghuang, a vital garrison town along the ancient Silk Road. 
+For more information about this topic, check out idp.bl.uk, where most of the information on this page is from. 
