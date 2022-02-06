@@ -44,6 +44,7 @@ a {
     gap: 100px;
     background-image: url(img/map.jpeg);
     background-size: 1400px;
+    background-color:lightgoldenrodyellow;
 }
 
 .intro{
