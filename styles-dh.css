@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: fantasy;
+    background-color: rgba(253, 208, 194, 0.562);
+    color: rgba(100, 151, 151, 0.842);
+    align-items: center;
+}
+
+p {
+    font-family: fantasy;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 12pt;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(100, 151, 151, 0.89);
+    font-weight: bold;
+}
+
+.row1 {
+    display: flex;
+    padding: 120px 120px;
+    gap: 100px;
+    background-image: url(https://images.pexels.com/photos/9208589/pexels-photo-9208589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+h1,
+h2 {
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 20px;
+}
+
+.egs {
+    display: flex;
+    flex: 1 1 0;
+    gap: 10px;
+    width: min-content;
+}
+
+.eg img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.row3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  margin-bottom: 100px;
+}
+
+.sign {
+  display: flex;
+  flex: 1;  
+  justify-content: center;
+  background-color: rgba(186, 145, 209, 0.37);
+  margin: 0 120px;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 10pt;
+}
+
+.b {
+  align-self: center;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 80px;
+} 
+
+button {
+    font-family: fantasy;
+}
