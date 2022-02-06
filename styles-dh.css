@@ -42,7 +42,7 @@ a {
     display: flex;
     padding: 120px 120px;
     gap: 100px;
-    background-image: url(http://idp.bl.uk/education/silk_road/images/dunhuangmap.jpg);
+    background-image: url(img/map.jpeg);
     background-size: 1400px;
 }
 
@@ -72,7 +72,7 @@ a {
 h1,
 h2 {
     font-family: fantasy;
-    font-weight: bolder;
+    font-weight: extra-bold;
     color: rgb(37, 37, 37);
 }
 
