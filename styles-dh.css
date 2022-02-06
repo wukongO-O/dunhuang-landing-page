@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -12,12 +13,16 @@ body {
     align-items: center;
 }
 
+.logo {
+    margin-left: 120px;
+}
+
 p {
     font-family: fantasy;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 100px;
     padding: 0 20px;
     font-size: 12pt;
 }
@@ -37,13 +42,38 @@ a {
     display: flex;
     padding: 120px 120px;
     gap: 100px;
-    background-image: url(https://images.pexels.com/photos/9208589/pexels-photo-9208589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://idp.bl.uk/education/silk_road/images/dunhuangmap.jpg);
+    background-size: 1400px;
+}
+
+.intro{
+    color: rgb(37, 37, 37);
+    font-weight: bolder;
+    background-color: whitesmoke;
+    opacity: 0.75;
+    height: 250px;
+    padding: 30px;
+}
+
+.cave{
+    max-height: 310px;
+    width: auto;
+}
+
+.b1{
+    color:white;
+    background-color:rgb(37, 37, 37);
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
 }
 
 h1,
 h2 {
     font-family: fantasy;
-    font-weight: bold;
+    font-weight: bolder;
+    color: rgb(37, 37, 37);
 }
 
 .row2{
@@ -56,41 +86,55 @@ h2 {
 .egs {
     display: flex;
     flex: 1 1 0;
-    gap: 10px;
+    gap: 20px;
     width: min-content;
+    text-align: center;
 }
 
 .eg img {
-    max-width: 200px;
+    width: 200px;
     height: 200px;
+    border-radius: 20%;
+    border: 5px solid rgba(100, 151, 151, 0.89);
 }
 
 .row3{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: azure;
-  margin-bottom: 100px;
+  align-items: flex-end;
+  padding-right: 400px;
+  background-color: rgba(100, 151, 151, 0.89);
+  margin-bottom: 50px;
 }
 
 .sign {
   display: flex;
   flex: 1;  
   justify-content: center;
-  background-color: rgba(186, 145, 209, 0.37);
-  margin: 0 120px;
+  background-color: rgba(253, 208, 194, 0.562);
+  margin: 100px 260px;
   flex-wrap: wrap;
   gap: 30px;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .b {
   align-self: center;
 }
 
+.b button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(253, 208, 194, 0.178);
+    font-weight:bolder;
+    padding: 2px 20px;
+}
 .footer {
     text-align: center;
-    margin: 10px 80px;
+    margin: 0;
+    background-color: rgba(192, 192, 192, 0.541);
+    font-size: 10pt;
 } 
 
 button {
